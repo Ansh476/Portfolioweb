@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient,
+.active {
+    background: linear-gradient(
+        92.23deg,
+        #FCA5F1 30%,
+        #B5FFFF 50%,
+        #3bace2 120%
+    );
+}
+.active {
+    color:#fff;
+    padding:1rem;
+    border-radius:100%
+}
+
