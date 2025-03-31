@@ -34,7 +34,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="relative flex justify-center items-center h-screen bg-gradient-to-r from-homic to-black text-white">
+    <div className="relative flex flex-col justify-center items-center h-screen bg-gradient-to-r from-homic to-black text-white">
+      <h1 className='text-4xl mb-10 font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary text-center'>
+        Contact
+      </h1>
       {showMessage && (
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 mt-4 p-2 bg-green-500 text-white rounded-md shadow-md">
           Message sent successfully!
